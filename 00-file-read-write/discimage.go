@@ -6,8 +6,6 @@ import (
 	"os"
 )
 
-type NbdRequestType int
-
 type Span struct {
 	from   uint64
 	length uint32 // we have this limitation in the API
